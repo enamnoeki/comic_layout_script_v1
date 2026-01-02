@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Outputs
+output/
+output/**
+slices/
+slices/**
+
+# OS junk
+.DS_Store
+Thumbs.db

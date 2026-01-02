@@ -1,0 +1,11 @@
+
+{
+  "canvas": { "width": 800, "height": 1400 },
+  "background": { "type": "solid", "color": "#ffffff" },
+  "defaults": { "fit": "contain", "w": 760, "h": 600 },
+  "items": [
+    { "file": "assets/panel1.png", "x": 20, "y": 20 },
+    { "file": "assets/panel2.png", "x": 20, "y": 660 }
+  ],
+  "export": { "file": "output/webcomic.png" }
+}

@@ -1,0 +1,23 @@
+{
+  "canvas": { "width": 800, "height": 2400 },
+
+  "background": {
+    "type": "pattern",
+    "file": "assets/bg.png",
+    "scale": 1.0
+  },
+
+  "defaults": {
+    "fit": "contain",
+    "w": 700,
+    "h": 700
+  },
+
+  "items": [
+    { "file": "assets/panel1.png", "x": 50, "y": 80 },
+    { "file": "assets/panel2.png", "x": 50, "y": 860 },
+    { "file": "assets/panel1.png", "x": 50, "y": 1640, "w": 700, "h": 600 }
+  ],
+
+  "export": { "file": "output/webcomic.png" }
+}

@@ -157,10 +157,10 @@ The script exports a single PNG image.
 
 1. Draw panels
 2. Save images into `assets/`
-a. Label them as `bg`, `panel`, and `footer or cta` to make it easier to identify
+- Label them as `bg`, `panel`, and `footer or cta` to make it easier to identify
 3. Edit layout.json (positions, sizes)
 4. Run the script
-a. For making the whole file - `python build_webcomic.py --layout layout.json`
-b. For slicing the file - `python slice_webcomic.py --input output/webcomic.png --slice-height 1200 --overlap 0`
+- For making the whole file - `python build_webcomic.py --layout layout.json`
+- For slicing the file - `python slice_webcomic.py --input output/webcomic.png --slice-height 1200 --overlap 0`
 5. Review output
 6. Adjust numbers if needed
